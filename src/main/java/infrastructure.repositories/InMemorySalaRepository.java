@@ -19,4 +19,14 @@ public class InMemorySalaRepository implements SalaRepository {
         return new ArrayList<>(store.values());
     }
 
+    @Override
+    public Sala buscarPorNombre(String nombre) {
+        for(Sala sala : store.values()){
+            if(sala.getNombre().equals(nombre)){
+                return sala;
+            }
+        }
+        return null;
+    }
+
 }

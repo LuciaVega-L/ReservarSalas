@@ -1,9 +1,0 @@
-usecases\services\RegistrarSalaUseCase.class
-usecases\dto\OperationResult.class
-usecases\ports\SalaRepository.class
-entities\TipoSala.class
-usecases\services\ReservarSalasApp.class
-adapters\UI\MainView.class
-infrastructure\repositories\InMemorySalaRepository.class
-entities\Sala.class
-adapters\UI\Main.class

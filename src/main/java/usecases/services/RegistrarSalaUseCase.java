@@ -18,6 +18,8 @@ public class RegistrarSalaUseCase {
             return OperationResult.fail("El nombre de la sala no puede estar vacío.");
         if (capacidad <= 0)
             return OperationResult.fail("La capacidad debe ser mayor a cero.");
+        if (salaRepository.buscarPorNombre(nombre) != null)
+            return OperationResult.fail("Nombre de la sala debe ser unico");
 
         TipoSala tipo;
         try {
@@ -26,10 +28,8 @@ public class RegistrarSalaUseCase {
             return OperationResult.fail(e.getMessage());
         }
 
-        // ID autogenerado
         String id = "SALA-" + (salaRepository.findAll().size() + 1);
 
-        // Paso 7 diagrama secuencia: envía datos → Paso 8: save(sala)
         Sala sala = new Sala(id, nombre, capacidad, tipo);
         salaRepository.save(sala);
 

@@ -9,4 +9,5 @@ public interface SalaRepository {
 
     void           save(Sala sala);
     List<Sala>     findAll();
+    Sala buscarPorNombre(String nombre);
 }
