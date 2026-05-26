@@ -1,9 +1,0 @@
-C:\Users\david\OneDrive\Documents\GitHub\ReservarSalas\src\main\java\adapters\UI\Main.java
-C:\Users\david\OneDrive\Documents\GitHub\ReservarSalas\src\main\java\adapters\UI\MainView.java
-C:\Users\david\OneDrive\Documents\GitHub\ReservarSalas\src\main\java\entities\Sala.java
-C:\Users\david\OneDrive\Documents\GitHub\ReservarSalas\src\main\java\entities\TipoSala.java
-C:\Users\david\OneDrive\Documents\GitHub\ReservarSalas\src\main\java\infrastructure.repositories\InMemorySalaRepository.java
-C:\Users\david\OneDrive\Documents\GitHub\ReservarSalas\src\main\java\usecases\dto\OperationResult.java
-C:\Users\david\OneDrive\Documents\GitHub\ReservarSalas\src\main\java\usecases\ports\SalaRepository.java
-C:\Users\david\OneDrive\Documents\GitHub\ReservarSalas\src\main\java\usecases\services\RegistrarSalaUseCase.java
-C:\Users\david\OneDrive\Documents\GitHub\ReservarSalas\src\main\java\usecases\services\ReservarSalasApp.java
